@@ -1,0 +1,22 @@
+main{
+    padding: 20px;
+    margin-left: var(--sidebar-width);
+    height: calc(100vh - var(--toolbar-height));
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+#imgEC{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#carouselExample{
+    max-width: 45%;  
+    height: auto; 
+}

@@ -1,0 +1,25 @@
+aside{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    width: var(--sidebar-width);
+    height: calc(100vh - var(--toolbar-height));
+    position: fixed;
+}
+
+#home{
+    padding-bottom: 50px;
+}
+
+.icon{
+    margin-right: 15px;
+}
+
+.nav-item{
+    font-weight: 500 !important;
+}
+
+.nameFoot{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
